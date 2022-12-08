@@ -6,45 +6,47 @@ class DetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFC1D3FF),
+      backgroundColor: const Color(0xFFeee9e6),
       appBar: AppBar(
         iconTheme: const IconThemeData(
-          color: Colors.black,
+          color: Colors.white,
         ),
         actions: [
           IconButton(
             onPressed: () {},
             icon: const Icon(
               Icons.person,
-              color: Colors.black,
+              color: Colors.white,
               size: 32,
             ),
           ),
         ],
         centerTitle: true,
-        backgroundColor: Colors.transparent,
+        backgroundColor: Color(0xFFffaa44),
         elevation: 0,
         shadowColor: Colors.transparent,
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(20, 10, 20, 20),
+          padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
           child: Container(
             width: double.infinity,
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
-              color: Colors.white,
             ),
             child: Column(
               children: [
                 Image.asset(
-                  'assets/images/camera.png',
-                  width: MediaQuery.of(context).size.width * 0.7,
-                  height: MediaQuery.of(context).size.width * 0.7,
+                  'assets/images/A6000.png',
+                  width: MediaQuery.of(context).size.width * 0.8,
+                  height: MediaQuery.of(context).size.width * 0.8,
+                ),
+                const SizedBox(
+                  height: 20,
                 ),
                 const Text(
-                  'Canon EOS 80D',
+                  'Sony Alpha A6000',
                   style: TextStyle(
                     fontSize: 23,
                     fontWeight: FontWeight.w700,
@@ -54,67 +56,154 @@ class DetailPage extends StatelessWidget {
                 const SizedBox(
                   height: 10,
                 ),
+                const Text(
+                  'Rp. 110.000 / hari',
+                  style: TextStyle(
+                    fontSize: 19,
+                    fontWeight: FontWeight.w500,
+                    fontFamily: 'Poppins',
+                  ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Column(
                       children: const [
                         Text(
-                          'Price',
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontFamily: 'Poppins',
-                            color: Color(0xFF171717),
-                          ),
-                        ),
-                        Text(
-                          'Rp 5k/24h',
+                          'Sensor',
                           style: TextStyle(
                             fontSize: 16,
                             fontFamily: 'Poppins',
                             fontWeight: FontWeight.w600,
                           ),
-                        )
+                        ),
+                        Text(
+                          'CMOS 24 MP',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: 'Poppins',
+                            color: Color(0xFF171717),
+                          ),
+                        ),
                       ],
                     ),
                     Column(
                       children: const [
                         Text(
-                          'Name',
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontFamily: 'Poppins',
-                            color: Color(0xFF171717),
-                          ),
-                        ),
-                        Text(
-                          'Budi',
+                          'Max ISO',
                           style: TextStyle(
                             fontSize: 16,
                             fontFamily: 'Poppins',
                             fontWeight: FontWeight.w600,
                           ),
-                        )
+                        ),
+                        Text(
+                          '25600',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: 'Poppins',
+                            color: Color(0xFF171717),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+                const SizedBox(
+                  height: 15,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Column(
+                      children: const [
+                        Text(
+                          'LCD',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: 'Poppins',
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        Text(
+                          '3 inch, 921.000 titik',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: 'Poppins',
+                            color: Color(0xFF171717),
+                          ),
+                        ),
                       ],
                     ),
                     Column(
                       children: const [
                         Text(
-                          'Location',
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontFamily: 'Poppins',
-                            color: Color(0xFF171717),
-                          ),
-                        ),
-                        Text(
-                          'Malang',
+                          'Shutter Speed',
                           style: TextStyle(
                             fontSize: 16,
                             fontFamily: 'Poppins',
                             fontWeight: FontWeight.w600,
                           ),
-                        )
+                        ),
+                        Text(
+                          '1/4000 s',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: 'Poppins',
+                            color: Color(0xFF171717),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+                const SizedBox(
+                  height: 15,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Column(
+                      children: const [
+                        Text(
+                          'Video',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: 'Poppins',
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        Text(
+                          '        Full HD 1080p        ',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: 'Poppins',
+                            color: Color(0xFF171717),
+                          ),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Text(
+                          'Autofokus',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: 'Poppins',
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        Text(
+                          '179 phase detect',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontFamily: 'Poppins',
+                            color: Color(0xFF171717),
+                          ),
+                        ),
                       ],
                     ),
                   ],
@@ -122,19 +211,11 @@ class DetailPage extends StatelessWidget {
                 const SizedBox(
                   height: 30,
                 ),
-                const Text(
-                  '''
-            What's there to say about the Canon 80D? The camera is an excellent, well-built DSLR that produces reasonably sharp, detailed photographs and high quality Full HD video. It's comfortable to hold with classic Canon DSLR styling, ergonomics and controls, and its versatile AF system is great -- especially thanks to Dual Pixel CMOS AF. The 80D feels like a tried-and-true Canon DSLR -- nothing over the top, ground-breaking or revolutionary, just what it's meant to be. 
-            ''',
-                  style: TextStyle(
-                    fontSize: 14,
-                  ),
-                ),
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.fromLTRB(40, 5, 40, 5),
-                    primary: const Color(0xFFC1D3FF),
+                    primary: const Color(0xFFffaa44),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(50),
                     ),
@@ -145,7 +226,7 @@ class DetailPage extends StatelessWidget {
                       fontFamily: 'Poppins',
                       fontWeight: FontWeight.w700,
                       fontSize: 18,
-                      color: Colors.black,
+                      color: Colors.white,
                     ),
                   ),
                 ),
