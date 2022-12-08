@@ -125,14 +125,6 @@ class HomePage extends StatelessWidget {
                               fontFamily: 'Poppins',
                             ),
                           ),
-                          const Text(
-                            '100+ Product',
-                            style: TextStyle(
-                              fontFamily: 'Poppins',
-                              fontWeight: FontWeight.w400,
-                              fontSize: 12,
-                            ),
-                          ),
                         ],
                       ),
                     ),
@@ -160,14 +152,6 @@ class HomePage extends StatelessWidget {
                             fontSize: 14,
                             fontWeight: FontWeight.w700,
                             fontFamily: 'Poppins',
-                          ),
-                        ),
-                        const Text(
-                          '100+ Product',
-                          style: TextStyle(
-                            fontFamily: 'Poppins',
-                            fontWeight: FontWeight.w400,
-                            fontSize: 12,
                           ),
                         ),
                       ],
@@ -206,14 +190,6 @@ class HomePage extends StatelessWidget {
                             fontFamily: 'Poppins',
                           ),
                         ),
-                        const Text(
-                          '100+ Product',
-                          style: TextStyle(
-                            fontFamily: 'Poppins',
-                            fontWeight: FontWeight.w400,
-                            fontSize: 12,
-                          ),
-                        ),
                       ],
                     ),
                   ),
@@ -240,14 +216,6 @@ class HomePage extends StatelessWidget {
                             fontSize: 14,
                             fontWeight: FontWeight.w700,
                             fontFamily: 'Poppins',
-                          ),
-                        ),
-                        const Text(
-                          '100+ Product',
-                          style: TextStyle(
-                            fontFamily: 'Poppins',
-                            fontWeight: FontWeight.w400,
-                            fontSize: 12,
                           ),
                         ),
                       ],
@@ -286,14 +254,6 @@ class HomePage extends StatelessWidget {
                             fontFamily: 'Poppins',
                           ),
                         ),
-                        const Text(
-                          '100+ Product',
-                          style: TextStyle(
-                            fontFamily: 'Poppins',
-                            fontWeight: FontWeight.w400,
-                            fontSize: 12,
-                          ),
-                        ),
                       ],
                     ),
                   ),
@@ -320,14 +280,6 @@ class HomePage extends StatelessWidget {
                             fontSize: 14,
                             fontWeight: FontWeight.w700,
                             fontFamily: 'Poppins',
-                          ),
-                        ),
-                        const Text(
-                          '100+ Product',
-                          style: TextStyle(
-                            fontFamily: 'Poppins',
-                            fontWeight: FontWeight.w400,
-                            fontSize: 12,
                           ),
                         ),
                       ],
@@ -366,14 +318,6 @@ class HomePage extends StatelessWidget {
                             fontFamily: 'Poppins',
                           ),
                         ),
-                        const Text(
-                          '100+ Product',
-                          style: TextStyle(
-                            fontFamily: 'Poppins',
-                            fontWeight: FontWeight.w400,
-                            fontSize: 12,
-                          ),
-                        ),
                       ],
                     ),
                   ),
@@ -400,14 +344,6 @@ class HomePage extends StatelessWidget {
                             fontSize: 14,
                             fontWeight: FontWeight.w700,
                             fontFamily: 'Poppins',
-                          ),
-                        ),
-                        const Text(
-                          '100+ Product',
-                          style: TextStyle(
-                            fontFamily: 'Poppins',
-                            fontWeight: FontWeight.w400,
-                            fontSize: 12,
                           ),
                         ),
                       ],
