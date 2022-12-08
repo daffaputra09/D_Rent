@@ -106,7 +106,7 @@ class HomePage extends StatelessWidget {
                       width: MediaQuery.of(context).size.width * 0.42,
                       decoration: BoxDecoration(
                         color: Color(0xFFEAD2B6),
-                        borderRadius: BorderRadius.circular(32),
+                        borderRadius: BorderRadius.circular(15),
                       ),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -135,7 +135,7 @@ class HomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.42,
                     decoration: BoxDecoration(
                       color: Color(0xFFEAD2B6),
-                      borderRadius: BorderRadius.circular(32),
+                      borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -171,7 +171,7 @@ class HomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.42,
                     decoration: BoxDecoration(
                       color: Color(0xFFEAD2B6),
-                      borderRadius: BorderRadius.circular(32),
+                      borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -199,7 +199,7 @@ class HomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.42,
                     decoration: BoxDecoration(
                       color: Color(0xFFEAD2B6),
-                      borderRadius: BorderRadius.circular(32),
+                      borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -235,7 +235,7 @@ class HomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.42,
                     decoration: BoxDecoration(
                       color: Color(0xFFEAD2B6),
-                      borderRadius: BorderRadius.circular(32),
+                      borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -263,7 +263,7 @@ class HomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.42,
                     decoration: BoxDecoration(
                       color: Color(0xFFEAD2B6),
-                      borderRadius: BorderRadius.circular(32),
+                      borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -299,7 +299,7 @@ class HomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.42,
                     decoration: BoxDecoration(
                       color: Color(0xFFEAD2B6),
-                      borderRadius: BorderRadius.circular(32),
+                      borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -327,7 +327,7 @@ class HomePage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width * 0.42,
                     decoration: BoxDecoration(
                       color: Color(0xFFEAD2B6),
-                      borderRadius: BorderRadius.circular(32),
+                      borderRadius: BorderRadius.circular(15),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,

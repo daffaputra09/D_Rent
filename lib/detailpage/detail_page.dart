@@ -217,7 +217,7 @@ class DetailPage extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(40, 5, 40, 5),
                     primary: const Color(0xFFffaa44),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(50),
+                      borderRadius: BorderRadius.circular(10),
                     ),
                   ),
                   child: const Text(
