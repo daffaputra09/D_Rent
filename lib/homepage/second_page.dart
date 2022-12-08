@@ -439,7 +439,7 @@ class SecondPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Image.asset(
-                          'assets/images/a7s3.png',
+                          'assets/images/x-a2.png',
                           height: MediaQuery.of(context).size.width * 0.4,
                           width: MediaQuery.of(context).size.width * 0.4,
                           fit: BoxFit.cover,
